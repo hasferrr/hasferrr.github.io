@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,100;1,9..40,400;1,9..40,500;1,9..40,700&family=Plus+Jakarta+Sans:wght@200;400;700&family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,100;0,200;0,300;0,400;0,800;1,100;1,200;1,300;1,400;1,800&display=swap');
 
 :root {
   --nav-height: 4rem;
@@ -22,7 +22,7 @@ a:hover {
 
 body {
   font-family: 'DM Sans', sans-serif;
-  font-size: 1.1rem;
+  font-size: 1.15rem;
 }
 
 .sub {
@@ -32,10 +32,6 @@ body {
 
 .heading {
   text-align: center;
-}
-
-.flex {
-  display: flex;
 }
 
 .flex-center {
@@ -91,7 +87,7 @@ nav {
 }
 
 #about {
-  height: 34rem;
+  height: min(max(100vh, 34rem), 45rem);
   flex-direction: column;
   gap: 5rem;
 }
@@ -133,7 +129,7 @@ nav {
 }
 
 #contact {
-  height: 20rem;
+  height: min(max(100vh, 20rem), 27.5rem);
   flex-direction: column;
   gap: 5rem;
 }
