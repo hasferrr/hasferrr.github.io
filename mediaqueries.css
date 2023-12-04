@@ -1,0 +1,91 @@
+:root {
+  --nav-height: 4rem;
+}
+
+@media screen and (max-width: 960px) {
+  #about p.text {
+    width: 20rem;
+  }
+
+  #about .about-pic {
+    width: 20rem;
+  }
+}
+
+@media screen and (max-width: 890px) {
+  nav {
+    gap: 40%;
+  }
+
+  #profile {
+    height: max(100vh - var(--nav-height), 700px);
+  }
+
+  #profile > .profile-pic {
+    height: 19rem;
+    width: 19rem;
+  }
+
+  #profile .text h1 {
+    font-size: 2.25rem;
+  }
+
+  #profile .text .sub-title {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #profile {
+    flex-direction: column;
+  }
+
+  #profile > .profile-pic {
+    height: 18rem;
+    width: 18rem;
+  }
+
+  #about {
+    height: 100%;
+  }
+
+  #about > .content {
+    flex-direction: column;
+  }
+
+  #about .about-pic {
+    height: 17.5rem;
+    background-position-y: 67.5%;
+  }
+
+  #about p.text {
+    width: 100%;
+  }
+
+  #about .box h3 {
+    margin-bottom: 1rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  nav {
+    gap: 30%;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  #contact .contact-container {
+    flex-wrap: wrap;
+    padding: 0.25rem;
+    margin: 0 1rem;
+    gap: 0;
+  }
+
+  #contact .icon {
+    height: 1.25rem;
+  }
+
+  #contact .contact-info {
+    font-size: 1rem;
+  }
+}
