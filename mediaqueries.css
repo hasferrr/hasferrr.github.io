@@ -74,6 +74,19 @@
 }
 
 @media screen and (max-width: 460px) {
+  #profile > .profile-pic {
+    height: 16rem;
+    width: 16rem;
+  }
+
+  #profile .text h1 {
+    font-size: 2.1rem;
+  }
+
+  #profile .text .sub-title {
+    font-size: 1.25rem;
+  }
+
   #contact .contact-container {
     flex-wrap: wrap;
     padding: 0.25rem;
